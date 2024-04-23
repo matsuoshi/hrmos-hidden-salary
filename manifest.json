@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "hrmos-hidden-salary",
+    "version": "1.0.0",
+    "description": "Conceal your salary on the Hrmos profile page",
+    "author": "h.matsuo",
+    "homepage_url": "https://ess.hrmos.co/",
+    "content_scripts": [
+        {
+            "matches": ["https://ess.hrmos.co/*"],
+            "css": ["style.css"]
+        }
+    ]
+}

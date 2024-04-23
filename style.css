@@ -1,0 +1,3 @@
+pol-section:has(#contract_history) pol-section-body {
+    display: none;
+}
