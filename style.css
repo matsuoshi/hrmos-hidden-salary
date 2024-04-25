@@ -1,3 +1,7 @@
 pol-section:has(#contract_history) pol-section-body {
     display: none;
 }
+
+pol-section:has(#contract_history):after {
+    content: '(拡張機能により非表示になっています)';
+}
